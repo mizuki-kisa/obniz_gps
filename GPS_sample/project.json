@@ -1,0 +1,692 @@
+{
+    "name": "GPS_sample",
+    "components": [
+        {
+            "name": "/Obniz",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "a0b244f3-8d40-fc78-2cbc-b487c5d291b8",
+                        "fromProperty": "domElement",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "domElement"
+                    },
+                    {
+                        "fromId": "a0b244f3-8d40-fc78-2cbc-b487c5d291b8",
+                        "fromProperty": "isAddedToDOM",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "isAddedToDOM"
+                    },
+                    {
+                        "fromId": "99c26f45-9998-1a5e-e401-d2e9096c4250",
+                        "fromProperty": "scriptsLoaded",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "scriptsLoaded"
+                    },
+                    {
+                        "fromId": "8c54a10e-e9f2-98c2-8018-bf50539026d2",
+                        "fromProperty": "loaded",
+                        "toId": "99c26f45-9998-1a5e-e401-d2e9096c4250",
+                        "toProperty": "scriptsLoaded"
+                    },
+                    {
+                        "fromId": "0f9b4562-4a1c-189d-a850-cacf57940acb",
+                        "fromProperty": "state",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "pageShowing"
+                    },
+                    {
+                        "fromId": "3fdf5316-2dec-c66a-c6ca-dbc5004cbb93",
+                        "fromProperty": "savedValue",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "pintitle"
+                    },
+                    {
+                        "fromId": "16edc377-8a0d-6113-7d09-1901d6e0bd6c",
+                        "fromProperty": "style",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "mapStyle"
+                    },
+                    {
+                        "fromId": "1810ae9f-5b53-8a94-4a1b-dd1b82ba5116",
+                        "fromProperty": "lon",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "long"
+                    },
+                    {
+                        "fromId": "1810ae9f-5b53-8a94-4a1b-dd1b82ba5116",
+                        "fromProperty": "lat",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "lat"
+                    },
+                    {
+                        "fromId": "e4aeb925-5e47-1d37-1457-8f60cfab33d9",
+                        "fromProperty": "tap",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "doAdd"
+                    },
+                    {
+                        "fromId": "ef06a6ee-86f0-4150-5158-7c52019fc54a",
+                        "fromProperty": "savedValue",
+                        "toId": "16edc377-8a0d-6113-7d09-1901d6e0bd6c",
+                        "toProperty": "pirmaryColor"
+                    },
+                    {
+                        "fromId": "710fe219-3c64-8054-86c2-e2083932a986",
+                        "fromProperty": "savedValue",
+                        "toId": "16edc377-8a0d-6113-7d09-1901d6e0bd6c",
+                        "toProperty": "subColor"
+                    },
+                    {
+                        "fromId": "b5b62e4f-79c5-1955-266a-a1a88e68bc54",
+                        "fromProperty": "savedValue",
+                        "toId": "16edc377-8a0d-6113-7d09-1901d6e0bd6c",
+                        "toProperty": "textColor"
+                    },
+                    {
+                        "fromId": "39767fce-532f-18a1-8bf3-1e9ea142fdf2",
+                        "fromProperty": "savedValue",
+                        "toId": "16edc377-8a0d-6113-7d09-1901d6e0bd6c",
+                        "toProperty": "roadColor"
+                    },
+                    {
+                        "fromId": "790067d5-4be0-2c48-5c21-b4f51ff55222",
+                        "fromProperty": "savedValue",
+                        "toId": "16edc377-8a0d-6113-7d09-1901d6e0bd6c",
+                        "toProperty": "heighwayColor"
+                    },
+                    {
+                        "fromId": "1f1acdf6-ca55-8469-eedb-e890096d84a4",
+                        "fromProperty": "savedValue",
+                        "toId": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "toProperty": "imgpath"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "69d5b85f-8a9d-b73a-5c6b-829d90cd59ec",
+                        "type": "Group",
+                        "version": 2,
+                        "x": 379.3286115311403,
+                        "y": 323.7097602948216,
+                        "parameters": {
+                            "height": {
+                                "value": 100,
+                                "unit": "%"
+                            }
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "6543fa3e-daa6-3adf-a82c-5c7bf0178ec6",
+                                "type": "Rectangle",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "opacity": 1,
+                                    "color": "#888888"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "a0b244f3-8d40-fc78-2cbc-b487c5d291b8",
+                                "type": "HTML Content",
+                                "label": "HTML Google maps",
+                                "x": 20,
+                                "y": 92,
+                                "parameters": {
+                                    "width": {
+                                        "value": 100,
+                                        "unit": "%"
+                                    },
+                                    "height": {
+                                        "value": 100,
+                                        "unit": "%"
+                                    },
+                                    "x": 0,
+                                    "visible": true,
+                                    "sizeMode": "explicit",
+                                    "html": "",
+                                    "y": 0,
+                                    "input 0": "",
+                                    "javascript": "      var map;\n      function initMap() {\n        map = new google.maps.Map(document.getElementById('map'), {\n          center: {lat: -34.397, lng: 150.644},\n          zoom: 8\n        });\n      }\n",
+                                    "input 1": "",
+                                    "opacity": 1,
+                                    "className": "mapsContainer",
+                                    "usesDynamicContent": true,
+                                    "elementType": "div",
+                                    "touchPropagation": false
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "9b0b699e-3c00-361e-66e7-3722523f8439",
+                                "type": "Group",
+                                "version": 2,
+                                "label": "Artbeat",
+                                "x": 20,
+                                "y": 209,
+                                "parameters": {
+                                    "width": {
+                                        "value": 150,
+                                        "unit": "px"
+                                    },
+                                    "height": {
+                                        "value": 150,
+                                        "unit": "px"
+                                    },
+                                    "alignX": "right",
+                                    "blockTouch": true
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "3604be00-4092-6925-78d6-fe66975038a9",
+                                        "type": "Rectangle",
+                                        "x": 546.5239755969558,
+                                        "y": 573.1840770644686,
+                                        "parameters": {},
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "07035453-6356-d6d9-186b-7a4b1a7b935e",
+                                "type": "Group",
+                                "version": 2,
+                                "x": 20,
+                                "y": 316,
+                                "parameters": {
+                                    "height": {
+                                        "value": 30,
+                                        "unit": "%"
+                                    },
+                                    "alignY": "bottom"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "b4b74feb-89f8-b111-406c-408cd82dce64",
+                                        "type": "Rectangle",
+                                        "x": 20,
+                                        "y": 46,
+                                        "parameters": {
+                                            "color": "#000000",
+                                            "opacity": 0.5
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "e4aeb925-5e47-1d37-1457-8f60cfab33d9",
+                                        "type": "/btn",
+                                        "x": 20,
+                                        "y": 92,
+                                        "parameters": {},
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "edff316f-c585-6318-2841-52cf97fa5ca2",
+                        "type": "Javascript2",
+                        "label": "Google maps init",
+                        "x": 845.8326841510828,
+                        "y": 437.0089674338873,
+                        "parameters": {
+                            "code": "\nfunction pinTap(loc) {\n\n  console.log(loc);\n}\n\ndefine({\n    inputs: {\n        pageShowing: \"boolean\",\n        scriptsLoaded: \"boolean\",\n        isAddedToDOM : \"boolean\",\n        domElement : \"domelement\",\n        lat: \"number\",\n        long: \"number\",\n        doAdd: \"boolean\",\n        mapStyle: 'style',\n        pintitle: \"string\",\n        imgpath:\"string\"\n    },\n    outputs: {\n        outputValue: \"number\"\n    },\n    setup: function(inputs, outputs) {\n        this.initialized = false;\n        this.pageShowing = false;\n        \n\n    },\n    run: function(inputs, outputs, changedInputs) {\n        \n        if (inputs.pageShowing) {\n            this.pageShowing = true;\n        }\n        \n        if (inputs.scriptsLoaded && this.pageShowing && inputs.isAddedToDOM && !this.initialized) {\n            this.initialized = true;\n            this.map = new google.maps.Map(inputs.domElement, {\n            center: {\"lat\": inputs.lat, \"lng\": inputs.long},\n              zoom: 12\n            });\n            \n            this.map.set('styles', inputs.mapStyle);\n\n        }        \n\n        if (inputs.doAdd) {\n            console.log(\"add this:\", inputs.lat, inputs.long);\n            var loc = {\n                position: {\"lat\": inputs.lat, \"lng\": inputs.long},\n                map: this.map,\n                title: inputs.pintitle,\n                animation: google.maps.Animation.DROP,\n                icon: {\n            \t\turl: inputs.imgpath,\n            \t\tscaledSize: new google.maps.Size(100, 100) \n            \t}\n            };\n            \n            this.marker = new google.maps.Marker(loc);   \n            this.marker.addListener('click', pinTap);\n        }\n    }\n});\n",
+                            "lat": 35.681236,
+                            "long": 139.767125
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "pageShowing",
+                                "plug": "input",
+                                "type": {
+                                    "name": "boolean"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "scriptsLoaded",
+                                "plug": "input",
+                                "type": {
+                                    "name": "boolean"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "isAddedToDOM",
+                                "plug": "input",
+                                "type": {
+                                    "name": "boolean"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            },
+                            {
+                                "name": "domElement",
+                                "plug": "input",
+                                "type": {
+                                    "name": "domelement"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "lat",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "long",
+                                "plug": "input",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "group": "Inputs",
+                                "index": 7
+                            },
+                            {
+                                "name": "doAdd",
+                                "plug": "input",
+                                "type": {
+                                    "name": "boolean"
+                                },
+                                "group": "Inputs",
+                                "index": 8
+                            },
+                            {
+                                "name": "mapStyle",
+                                "plug": "input",
+                                "type": {
+                                    "name": "style"
+                                },
+                                "group": "Inputs",
+                                "index": 9
+                            },
+                            {
+                                "name": "pintitle",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 10
+                            },
+                            {
+                                "name": "imgpath",
+                                "plug": "input",
+                                "type": {
+                                    "name": "string"
+                                },
+                                "group": "Inputs",
+                                "index": 11
+                            },
+                            {
+                                "name": "outputValue",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 12
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "99c26f45-9998-1a5e-e401-d2e9096c4250",
+                        "type": "Globals",
+                        "x": 624.4217404522756,
+                        "y": 204.32487711086344,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "scriptsLoaded",
+                                "plug": "input/output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "0f9b4562-4a1c-189d-a850-cacf57940acb",
+                        "type": "Switch",
+                        "x": 289.83009011008346,
+                        "y": 12.465008484894113,
+                        "parameters": {
+                            "onFromStart": true
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "8c54a10e-e9f2-98c2-8018-bf50539026d2",
+                        "type": "Script Downloader",
+                        "x": 293.0394477083057,
+                        "y": 125.4054152637936,
+                        "parameters": {
+                            "input 0": "https://maps.googleapis.com/maps/api/js?key=AIzaSyAkNNBmwfzwinsSecwZ9YNwAo4EEFkfP7o"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "16edc377-8a0d-6113-7d09-1901d6e0bd6c",
+                        "type": "Javascript2",
+                        "label": "Map CSS",
+                        "x": 854.3780562755937,
+                        "y": 128.53434215050717,
+                        "parameters": {
+                            "code": "define({\n    inputs: {\n        pirmaryColor:\"color\",\n        subColor:\"color\",\n        textColor:\"color\",\n        roadColor:\"color\",\n        heighwayColor:\"color\"\n    },\n    outputs: {\n        style: \"style\"\n    },\n    destroy: function(inputs, outputs) {\n\n    },\n    setup: function(inputs, outputs) {\n        outputs.style = \n\n[\n            {elementType: 'geometry', stylers: [{color: inputs.pirmaryColor}]},\n            {elementType: 'labels.text.stroke', stylers: [{color: inputs.pirmaryColor}]},\n            {elementType: 'labels.text.fill', stylers: [{color: inputs.subColor}]},\n            {\n              featureType: 'administrative.locality',\n              elementType: 'labels.text.fill',\n              stylers: [{color: inputs.textColor}]\n            },\n            {\n              featureType: 'poi',\n              elementType: 'labels.text.fill',\n              stylers: [{color: inputs.textColor}]\n            },\n            {\n              featureType: 'poi.park',\n              elementType: 'geometry',\n              stylers: [{color: '#263c3f'}]\n            },\n            {\n              featureType: 'poi.park',\n              elementType: 'labels.text.fill',\n              stylers: [{color: '#6b9a76'}]\n            },\n            {\n              featureType: 'road',\n              elementType: 'geometry',\n              stylers: [{color: inputs.roadColor}]\n            },\n            {\n              featureType: 'road',\n              elementType: 'geometry.stroke',\n              stylers: [{color: inputs.roadColor}]\n            },\n            {\n              featureType: 'road',\n              elementType: 'labels.text.fill',\n              stylers: [{color: inputs.roadColor}]\n            },\n            {\n              featureType: 'road.highway',\n              elementType: 'geometry',\n              stylers: [{color: inputs.heighwayColor}]\n            },\n            {\n              featureType: 'road.highway',\n              elementType: 'geometry.stroke',\n              stylers: [{color: inputs.heighwayColor}]\n            },\n            {\n              featureType: 'road.highway',\n              elementType: 'labels.text.fill',\n              stylers: [{color: '#f3d19c'}]\n            },\n            {\n              featureType: 'transit',\n              elementType: 'geometry',\n              stylers: [{color: '#2f3948'}]\n            },\n            {\n              featureType: 'transit.station',\n              elementType: 'labels.text.fill',\n              stylers: [{color: inputs.textColor}]\n            },\n            {\n              featureType: 'water',\n              elementType: 'geometry',\n              stylers: [{color: '#17263c'}]\n            },\n            {\n              featureType: 'water',\n              elementType: 'labels.text.fill',\n              stylers: [{color: '#515c6d'}]\n            },\n            {\n              featureType: 'water',\n              elementType: 'labels.text.stroke',\n              stylers: [{color: '#17263c'}]\n            }\n          ];\n\n    },\n    run: function(inputs, outputs, changedInputs) {\n\n    }\n});"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "pirmaryColor",
+                                "plug": "input",
+                                "type": {
+                                    "name": "color"
+                                },
+                                "group": "Inputs",
+                                "index": 2
+                            },
+                            {
+                                "name": "subColor",
+                                "plug": "input",
+                                "type": {
+                                    "name": "color"
+                                },
+                                "group": "Inputs",
+                                "index": 3
+                            },
+                            {
+                                "name": "textColor",
+                                "plug": "input",
+                                "type": {
+                                    "name": "color"
+                                },
+                                "group": "Inputs",
+                                "index": 4
+                            },
+                            {
+                                "name": "roadColor",
+                                "plug": "input",
+                                "type": {
+                                    "name": "color"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "heighwayColor",
+                                "plug": "input",
+                                "type": {
+                                    "name": "color"
+                                },
+                                "group": "Inputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "style",
+                                "type": {
+                                    "name": "style"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 7
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "3fdf5316-2dec-c66a-c6ca-dbc5004cbb93",
+                        "type": "String",
+                        "x": 1181.6685572842816,
+                        "y": 632.6126278458537,
+                        "parameters": {
+                            "value": "Obniz"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "1810ae9f-5b53-8a94-4a1b-dd1b82ba5116",
+                        "type": "Receive Message",
+                        "x": 1178.7208941496474,
+                        "y": 489.6878066597069,
+                        "parameters": {
+                            "topic": "/gps/obniz"
+                        },
+                        "ports": [
+                            {
+                                "name": "lon",
+                                "plug": "outputs",
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionOnly": true
+                                },
+                                "group": "Payload",
+                                "index": 1
+                            },
+                            {
+                                "name": "lat",
+                                "plug": "outputs",
+                                "type": {
+                                    "name": "*",
+                                    "allowConnectionOnly": true
+                                },
+                                "group": "Payload",
+                                "index": 2
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "b5b62e4f-79c5-1955-266a-a1a88e68bc54",
+                        "type": "Color",
+                        "x": 1099.446438679812,
+                        "y": 168.6012929275772,
+                        "parameters": {
+                            "value": "#DEF531"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "ef06a6ee-86f0-4150-5158-7c52019fc54a",
+                        "type": "Color",
+                        "x": 1090.4394359058733,
+                        "y": -46.06560651796667,
+                        "parameters": {
+                            "value": "#222222"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "710fe219-3c64-8054-86c2-e2083932a986",
+                        "type": "Color",
+                        "x": 1098.452579538717,
+                        "y": 66.0729202484928,
+                        "parameters": {
+                            "value": "#DEF531"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "39767fce-532f-18a1-8bf3-1e9ea142fdf2",
+                        "type": "Color",
+                        "x": 1099.4464386798127,
+                        "y": 270.6806576988847,
+                        "parameters": {
+                            "value": "#444444"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "790067d5-4be0-2c48-5c21-b4f51ff55222",
+                        "type": "Color",
+                        "x": 1097.945271550822,
+                        "y": 377.2635238571618,
+                        "parameters": {
+                            "value": "#596315"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "1f1acdf6-ca55-8469-eedb-e890096d84a4",
+                        "type": "String",
+                        "x": 1167.0986615265494,
+                        "y": 743.5280668989851,
+                        "parameters": {
+                            "value": "images/obnizpin.png"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        },
+        {
+            "name": "/btn",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "dc59bec6-e036-914d-a94d-98e7509d7c8a",
+                        "fromProperty": "touch.tap",
+                        "toId": "b485b82d-ffa0-7aff-acd4-8dfab31dba4f",
+                        "toProperty": "tap"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "dc59bec6-e036-914d-a94d-98e7509d7c8a",
+                        "type": "Group",
+                        "version": 2,
+                        "x": 511,
+                        "y": 509,
+                        "parameters": {
+                            "width": {
+                                "value": 800,
+                                "unit": "px"
+                            },
+                            "height": {
+                                "value": 300,
+                                "unit": "px"
+                            },
+                            "alignX": "center",
+                            "alignY": "center",
+                            "depth": 999,
+                            "blockTouch": true,
+                            "y": 0
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "2aab06af-e187-66af-1cf2-33d0a84f7b26",
+                                "type": "Rectangle",
+                                "x": 20,
+                                "y": 82,
+                                "parameters": {
+                                    "color": "#DEF531",
+                                    "cornerRadius": 20
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "0c9a2b89-c03d-fde8-f803-a64183875076",
+                                "type": "Text",
+                                "version": 2,
+                                "x": 20,
+                                "y": 128,
+                                "parameters": {
+                                    "alignX": "center",
+                                    "alignY": "center",
+                                    "color": "#000000",
+                                    "fontSize": 80,
+                                    "text": "Obnizを探す",
+                                    "fontFamily": "Arial"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "b485b82d-ffa0-7aff-acd4-8dfab31dba4f",
+                        "type": "Component Outputs",
+                        "x": 803,
+                        "y": 643,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "tap",
+                                "plug": "input",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 1
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {
+        "devices": "Default Device",
+        "Default Device.fillMode": "aspectFit",
+        "Default Device.canvasWidth": 1080,
+        "Default Device.canvasHeight": 1920,
+        "mqttUseExternalBroker": true,
+        "mqttBrokerUrl": "mqtt://343e0f71:1d8107b74e3ffd8f@broker.shiftr.io"
+    },
+    "rootNodeId": "69d5b85f-8a9d-b73a-5c6b-829d90cd59ec",
+    "version": "1"
+}
