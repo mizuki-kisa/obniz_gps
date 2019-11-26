@@ -1,0 +1,2 @@
+# obniz_gps
+obnizでGPSのテスト
